@@ -1,0 +1,9 @@
+CREATE DATABASE College;
+USE College;
+
+CREATE TABLE Student (
+Rollno INT PRIMARY KEY,
+Name VARCHAR (50) NOT NULL,
+Class VARCHAR (20),
+Year INT (20)
+);
